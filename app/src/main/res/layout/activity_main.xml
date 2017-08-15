@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pythonanywhere.hogwarts.iquiz.MainActivity">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginBottom="24dp"
+            android:textStyle="bold|italic"
+            android:paddingLeft="4dp"
+            android:text="@string/a_project_by_team_virus" />
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:paddingLeft="4dp"
+            android:layout_width="wrap_content"
+            android:text="@string/question1"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ans1"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:paddingLeft="4dp"
+            android:layout_width="wrap_content"
+            android:text="2. Is photography using mobile camera allowed in Indian Museum?"
+            android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/ans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"/>
+            </RadioGroup>
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:paddingLeft="4dp"
+            android:text="3. Which of the following is(are) not a section(s) of the Indian Museum?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/ans31"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:text="Archaeology"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/ans32"
+            android:layout_width="wrap_content"
+            android:text="Economic Botany"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/ans33"
+            android:layout_width="wrap_content"
+            android:text="Manuscripts"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/ans34"
+            android:layout_width="wrap_content"
+            android:text="Jewellery"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/ans35"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:text="Zoology"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:paddingLeft="4dp"
+            android:text="4. What is the age(in years) of the Egyptian Mummy kept over there?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ans4"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"
+            android:paddingLeft="4dp"
+            android:layout_width="wrap_content"
+            android:text="5. What is the nearest Metro Station?"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ans5"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="16dp"
+            android:textAllCaps="true"
+            android:text="Check"
+            android:onClick="checkAnswers"
+            android:layout_marginBottom="16dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
